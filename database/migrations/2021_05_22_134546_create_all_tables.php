@@ -23,8 +23,8 @@ class CreateAllTables extends Migration
             $table->string('id_client')->references('id')->on('clients');
             $table->string('origin_currency');
             $table->string('destiny_currency');
-            $table->float('original_value', 10, 2);
-            $table->float('converted_value', 10, 2);
+            $table->float('original_value', 20, 2);
+            $table->float('converted_value', 20, 2);
             $table->text('rate');
             $table->timestamps();
         });
