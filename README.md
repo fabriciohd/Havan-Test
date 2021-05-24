@@ -1,4 +1,4 @@
-# BetaTestMarvel API
+# Jornada Labs HAVAN
 
 Desafio Programação – Jornada Labs HAVAN.
 
